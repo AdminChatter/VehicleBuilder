@@ -18,8 +18,8 @@ class Vehicle implements Driveable {
 
   // Constructor for the Vehicle class
   constructor(
-    vin: string;
-    color: string;
+    vin: string,
+    color: string,
     make: string,
     model: string,
     year: number,
@@ -44,6 +44,15 @@ class Vehicle implements Driveable {
   printDetails(): void {
     console.log(`Vehicle started: ${this.started}`);
     console.log(`Vehicle current speed: ${this.currentSpeed} mph`);
+
+    console.log(`VIN: ${this.vin}`);
+    console.log(`Make: ${this.make}`);
+    console.log(`Model: ${this.model}`);
+    console.log(`Year: ${this.year}`);
+    console.log(`Weight: ${this.weight}`);
+    console.log(`Top Speed: ${this.topSpeed}`);
+    console.log(`Color: ${this.color}`);
+    console.log(`Wheels: ${this.wheels}`);
   }
 
   // Method to start the vehicle
