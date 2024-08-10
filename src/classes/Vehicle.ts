@@ -109,6 +109,9 @@ class Vehicle implements Driveable {
       console.log('Start the vehicle first');
     }
   }
+
+  wheelie(): void {
+  }
 }
 
 // Export the Vehicle class
